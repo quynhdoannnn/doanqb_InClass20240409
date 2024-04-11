@@ -26,7 +26,7 @@
                 <asp:ListItem>Avocado</asp:ListItem>
                 <asp:ListItem>Peach</asp:ListItem>
             </asp:ListBox>
-            <asp:SqlDataSource ID="sqlDataSourceInClass202409" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringInClass20240409 %>" ProviderName="<%$ ConnectionStrings:ConnectionStringInClass20240409.ProviderName %>" SelectCommand="SELECT [NameID], [UserName], [LastName], [FirstName] FROM [tName]"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="sqlDataSourceInClass202409" runat="server" ConnectionString="Data Source=lcb-sql.uccob.uc.edu\nicholdw;Persist Security Info=True;User ID=IS3050Login;Password=Akash42!" ProviderName="<%$ ConnectionStrings:ConnectionStringInClass20240409.ProviderName %>" SelectCommand="SELECT [NameID], [UserName], [LastName], [FirstName] FROM [tName]"></asp:SqlDataSource>
         </div>
         <asp:Label ID="lblChosenFruit" runat="server" Text="Select a Fruit"></asp:Label>
     </form>
